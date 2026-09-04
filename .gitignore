@@ -13,3 +13,6 @@ src/main/resources/docs/
 *.iml
 bin/
 
+*.class
+
+
