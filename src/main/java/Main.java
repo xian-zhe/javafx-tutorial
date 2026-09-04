@@ -87,7 +87,10 @@ public class Main extends Application {
             handleUserInput();
         });
 
+        dialogContainer.heightProperty().addListener((observable) -> scrollPane.setVvalue(1.0));
+
     }
+
     /**
      * Creates a dialog box containing user input, and appends it to
      * the dialog container. Clears the user input after processing.
